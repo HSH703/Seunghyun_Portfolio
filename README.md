@@ -25,12 +25,12 @@
 
 
 
-- ### 개인프로젝트
+- ### 개인프로젝트 - 자기소개페이지
 <img src="Image/개인프로젝트-1.png"
-     alt="개인프로젝트"  width="100" />
+     alt="개인프로젝트"  width="500" />
 
 <img src="Image/개인프로젝트-2.png"
-     alt="개인프로젝트"  width="100" />
+     alt="개인프로젝트"  width="500" />
 
 
  |이름|주소|
@@ -57,7 +57,7 @@
 |-|-|
 |포트폴리오(배포 URL)|[추후 추가예정]()|
 |GitHub|[PAWJECT 4차](https://github.com/taehun00/thejoeun/tree/master/pawject4)|
-|구글시트|[PAWJECT 4차 - Google Sheets](https://docs.google.com/spreadsheets/d/1tKH45UxPa-RrMnF8XNpTcCXr2Naq1IjctwE3coVSyS8/edit?pli=1&gid=0#gid=0)|
+|피그마|[PAWJECT 4차 - Figma](https://www.figma.com/deck/p5XSa4gGr7FLTs0VTKnDgF/PAWJECT_ver4?node-id=1-261&t=Ze7c2GsPzUcjjIdV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[촬영예정]()|
 
 <br/>
@@ -116,7 +116,7 @@
 - **실행화면**
     - 운동스마트게시판
 <img src="Image/팀프로젝트-3차.png"
-     alt="3차프로젝트"  width="500" />
+     alt="3차프로젝트"  width="600" />
 
 
 
@@ -130,7 +130,7 @@
 |항목|링크|
 |-|-|
 |GitHub|[PAWJECT 3차](https://github.com/taehun00/thejoeun/tree/master/pawject3)|
-|구글시트|[PAWJECT 3차 - Google Sheets](https://docs.google.com/spreadsheets/d/1qf483W3OjI8tLteDl4ohGsusr4az7OAgQ0jMewwhmjg/edit?gid=0#gid=0)|
+|피그마|[PAWJECT 3차 - Figma](https://www.figma.com/deck/agVQ2UET3VDuGyPsoOOyh6/PAWJECT_ver3?node-id=1-261&t=vW2UAcWi4Fd8xILs-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[3차프로젝트_운동스마트게시판](https://www.youtube.com/watch?v=zX3kRQAQF2o)|
 
 
