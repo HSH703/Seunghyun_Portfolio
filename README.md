@@ -15,7 +15,7 @@
 ---
 - ###  주요 기술스택
 
-|Backend 및 시스템 설계|Frontend 개발 역량|
+|BackEnd 및 시스템 설계|FrontEnd 개발 역량|
 |-|-|
 |JAVA|React, JavaScript, JQuery|
 |Spring Boot|API 비동기 통신|
