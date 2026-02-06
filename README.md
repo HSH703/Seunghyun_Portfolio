@@ -32,11 +32,6 @@
 <img src="Image/개인프로젝트-2.png"
      alt="개인프로젝트"  width="500" />
 
-
- |이름|주소|
- |-|-|
- |작업물|[개인프로젝트](http://127.0.0.1:5500/Seunghyun_Portfolio/Project/%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/docs/index.html)|
-
 ---
 
 - ### 팀프로젝트(PAWJECT)
@@ -56,7 +51,7 @@
 |항목|링크|
 |-|-|
 |포트폴리오(배포 URL)|[추후 추가예정]()|
-|GitHub|[PAWJECT 4차](https://github.com/taehun00/thejoeun/tree/master/pawject4)|
+|GitHub|[PAWJECT 4차 - TeamProject Github](https://github.com/taehun00/thejoeun/tree/master/pawject4)|
 |피그마|[PAWJECT 4차 - Figma](https://www.figma.com/deck/p5XSa4gGr7FLTs0VTKnDgF/PAWJECT_ver4?node-id=1-261&t=Ze7c2GsPzUcjjIdV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[촬영예정]()|
 
@@ -130,7 +125,7 @@
 
 |항목|링크|
 |-|-|
-|GitHub|[PAWJECT 3차](https://github.com/taehun00/thejoeun/tree/master/pawject3)|
+|GitHub|[PAWJECT 3차 - TeamProject Github](https://github.com/taehun00/thejoeun/tree/master/pawject3)|
 |피그마|[PAWJECT 3차 - Figma](https://www.figma.com/deck/agVQ2UET3VDuGyPsoOOyh6/PAWJECT_ver3?node-id=1-261&t=vW2UAcWi4Fd8xILs-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[3차프로젝트_운동스마트게시판](https://www.youtube.com/watch?v=zX3kRQAQF2o)|
 
