@@ -14,40 +14,15 @@
 
 ---
 - ###  주요 기술스택
----
-- BackEnd 및 시스템 설계
-   - ☕ Java 11 / Java 17 (JDK 11 / JDK 17)
-   - 🗂️ MyBatis 3.5 / 2.3 / 3.0
-   - 🌱 Spring Framework 4.3 / 2.7 (MVC, Security)
-   - 🌱 Spring Boot 3.4
-   - 🧬JPA
----
 
-- FrontEnd 개발 역량
-   - 🧩 HTML5 / CSS3
-   - ⚡ JavaScript (ES11)
-   - 🌀 jQuery 3.7
-   - 🟦 Bootstrap 5
-   - 🎛️ Ant Design
----
-- DataBase
-   - 🛢️Oracle Database 11g XE (11.2.0.2.0)
-   - 📦 Redis
----
-- Communication/ Integration
-   - 🔄 AJAX (jQuery 3.7 기반) 
-   - 📄 JSON
-   - 🔌 External API
-   - 🔐 JWT 인증
----
-- Communication Tools
-   - 🐙 Git 2.51/ GitHub 
-   - 🎨 Figma 
----
-- Deployment/Server Environment
-   - 🖼️ Multipart File Upload (Spring Boot / Spring MVC 4.3) 
-   - 🚀 Apache Tomcat 9.0.111 / 9 (Embedded)
-   - ☁️ AWS
+|BackEnd 및 시스템 설계| FrontEnd 개발 역량|DataBase|Communication/ Integration|Communication Tools|Deployment/Server Environment|
+|-|-|-|-|-|-|
+|☕ Java 11 / Java 17 (JDK 11 / JDK 17)|🧩 HTML5 / CSS3     |🛢️Oracle Database 11g XE (11.2.0.2.0)|🔄 AJAX (jQuery 3.7 기반)|🐙 Git 2.51/ GitHub|🖼️ Multipart File Upload (Spring Boot / Spring MVC 4.3) |
+|🗂️ MyBatis 3.5 / 2.3 / 3.0            |⚡ JavaScript (ES11)|📦 Redis|📄 JSON|🎨 Figma|🚀 Apache Tomcat 9.0.111 / 9 (Embedded)|
+|🌱 Spring Framework 4.3 / 2.7 (MVC, Security)|🌀 jQuery 3.7||🔌 External API||☁️ AWS|
+|🌱 Spring Boot 3.4|🟦 Bootstrap 5||🔐 JWT 인증|||
+|🧬JPA|🎛️ Ant Design|||||
+
 ---
 
 
