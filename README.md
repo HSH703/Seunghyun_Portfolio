@@ -14,13 +14,40 @@
 
 ---
 - ###  주요 기술스택
+---
+- BackEnd 및 시스템 설계
+   - ☕ Java 11 / Java 17 (JDK 11 / JDK 17)
+   - 🗂️ MyBatis 3.5 / 2.3 / 3.0
+   - 🌱 Spring Framework 4.3 / 2.7 (MVC, Security)
+   - 🌱 Spring Boot 3.4
+   - 🧬JPA
+---
 
-|BackEnd 및 시스템 설계|FrontEnd 개발 역량|
-|-|-|
-|JAVA|React, JavaScript, JQuery|
-|Spring Boot|API 비동기 통신|
-|Oracle|배포 및 운영 환경|
-|JPA + MyBatis|개발 환경 및 협업|
+- FrontEnd 개발 역량
+   - 🧩 HTML5 / CSS3
+   - ⚡ JavaScript (ES11)
+   - 🌀 jQuery 3.7
+   - 🟦 Bootstrap 5
+   - 🎛️ Ant Design
+---
+- DataBase
+   - 🛢️Oracle Database 11g XE (11.2.0.2.0)
+   - 📦 Redis
+---
+- Communication/ Integration
+   - 🔄 AJAX (jQuery 3.7 기반) 
+   - 📄 JSON
+   - 🔌 External API
+   - 🔐 JWT 인증
+---
+- Communication Tools
+   - 🐙 Git 2.51/ GitHub 
+   - 🎨 Figma 
+---
+- Deployment/Server Environment
+   - 🖼️ Multipart File Upload (Spring Boot / Spring MVC 4.3) 
+   - 🚀 Apache Tomcat 9.0.111 / 9 (Embedded)
+   - ☁️ AWS
 ---
 
 
@@ -32,9 +59,16 @@
 <img src="Image/개인프로젝트-2.png"
      alt="개인프로젝트"  width="500" />
 
+|항목|주소|
+|-|-|
+|개인프로젝트|[자기소개페이지](https://hsh703.github.io/fullstack.-d._seunghyun/)|
+
+
 ---
 
 - ### 팀프로젝트(PAWJECT)
+
+  - 주요기능에서 본인 파트는 ★로 표시했습니다.
 
 - #### 반려동물 건강&사료 종합 플랫폼 v4(React 전환 + JWT 인증)
 
@@ -59,11 +93,32 @@
 <br/>
 <br/>
 
+- **프로젝트 목표**
+  - React 기반 프론트/백 분리 아키텍처로 전환 → 서비스 확장 및 유지보수성 확보
+  - API 중심 구조 재편을 통해 기능 간 연동성을 강화 & 신규 기능 개발 속도를 향상
+  - JWT 인증·Redis 캐싱 적용으로 보안성과 성능을 동시에 확보 → 안정적 서비스 운영 기반
+  - 사용자 중심 UI/UX 개편 → 콘텐츠 탐색 효율성과 참여도를 높여 플랫폼 경쟁력 강화
+
+<br/>
+<br/>
+<br/>
+
+- **주요기능**
+    - React 전환 
+       ㄴ 기존 게시판 UI를 React 기반으로 재구성, 공통 UI(헤더 / 네비게이션) & 메인페이지 리뉴얼  
+    -  인증/보안(JWT) 
+       ㄴ Spring Security 기반 인증 구조를 JWT 토큰 방식으로 전환 → API 중심 로그인/인가 체계 구축  
+    -  신규/확장 기능 
+       ㄴ ★ 체험단 게시판, 질병정보 게시판, ★ SNS기반 운동챌린지 게시판 등 신규 기능 개발 및 기존 데이터 구조 개편   
+
+<br/>
+<br/>
+<br/>
 
 - **담당 업무 및 성과**
   -  운동챌린지 게시판 구현 (React + Spring Boot)  
-  - RESTful API 설계 및 신규 게시판 구축, SNS형 피드 UI/UX 개발 (Ant Design 활용)  
-  → 성과: 사용자 체류 시간 및 챌린지 참여도 증가, 콘텐츠 탐색 효율 개선 
+  - RESTful API 설계 & 신규 게시판 구축, SNS형 피드 UI/UX 개발 (Ant Design 활용)  
+  → 성과: 사용자 체류 시간 및 챌린지 참여도 증가,  콘텐츠 탐색 효율 개선 
   - 댓글/대댓글 기능 개발 (JPA + MyBatis)  
   - 무한 댓글 구조 처리, 복잡한 계층형 쿼리 성능 최적화  
       → 성과: 데이터 처리 효율성 확보, 사용자 소통 활성화 
@@ -129,8 +184,36 @@
 |피그마|[PAWJECT 3차 - Figma](https://www.figma.com/deck/agVQ2UET3VDuGyPsoOOyh6/PAWJECT_ver3?node-id=1-261&t=vW2UAcWi4Fd8xILs-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[3차프로젝트_운동스마트게시판](https://www.youtube.com/watch?v=zX3kRQAQF2o)|
 
+<br/>
+<br/>
+<br/>
+
+- **프로젝트 목표**
+    - 기존 v2 서비스를 Spring Boot 기반으로 확장 → 본격적인 운영 가능한 서비스 구조로 발전  
+    - 외부 API 연동(OCR, ChatGPT, 채널톡, 날씨/지도 API 등) → 사용자 편의성과 
+    서비스 완성도를 고도화  
+    - 고객센터·사료 검색·리뷰·운동·건강정보 게시판 등 주요 기능을 추가 & 플랫폼을 
+    종합 서비스로 확장  
+    - UI/UX 개선 & 데이터 흐름 최적화를 통해 사용자 동선,  콘텐츠 접근성을 강화 
+
+<br/>
+<br/>
+<br/>
 
 
+-  **주요기능**
+    - 멤버 관리 – 회원/펫 정보 관리, 웹소켓 기반 알림 기능 
+    - 사료 게시판(관리자) - 사료 데이터 등록·수정·삭제, OCR 기반 자동 입력 
+    - 리뷰 게시판 - 리뷰 작성/조회, 다중 이미지 첨부, ChatGPT 기반 리뷰 문장 순화 
+    - 사료 검색 기능 - 조건 기반 상세 필터 검색, 검색 결과→리뷰 연동, ChatGPT 기반 필터 추천 
+    - 고객센터 – FAQ 기능, 1:1 문의, 채널톡 API 기반 실시간 상담 연동 
+    - ★ 운동 게시판 – 날씨/지도 API 기반 정보 제공, 운동정보 게시판 ↔ 운동 스마트 게시판 연동 
+    - 건강 정보 게시판 – 건강 정보 데이터 제공 및 관리 기능 
+    - 이벤트 - AI 기반 반려동물 캐릭터 생성 기능 
+
+<br/>
+<br/>
+<br/>
 
 - **담당 업무 및 성과**
 - 운동스마트게시판 구현  
@@ -212,6 +295,31 @@
 |피그마|[PAWJECT 2차 - Figma](https://www.figma.com/deck/j626h6S3cxnQN7z0ZsQCNT/PAWJECT_ver2?node-id=1-261)|
 |YouTube|[2차프로젝트_운동챌린지게시판](https://www.youtube.com/watch?v=eN79WDRs4wI)|
 
+<br/>
+<br/>
+<br/>
+
+- **프로젝트 목표**
+    - 초기 버전(v1)을 Spring Framework 기반으로 확장 → 핵심 게시판 기능을 고도화  
+    - 검색·페이징·다중 이미지 업로드·AJAX 운영 기능을 추가 → 실사용 가능한 서비스 형태로 개선  
+    - 데이터 구조와 UI 일관성을 강화하여 사용자 경험 & 운영 효율성을 동시에 확보  
+    - 법적 리스크를 고려한 데이터/이미지 처리 체계를 마련 → 안정적 서비스 운영 기반 확보
+
+<br/>
+<br/>
+<br/>
+
+- **주요기능**
+    - 멤버 관리 – 회원가입/로그인/탈퇴/정보수정, 펫정보 관리, 회원 검색, 페이징  
+    - 사료 게시판(관리자) – 사료 데이터 CRUD, 빠른 삭제 기능, 검색, 페이징  
+    - 건강 정보 게시판 – 건강 정보 CRUD, 검색, 페이징  
+    - 리뷰 게시판 – 리뷰 CRUD, 검색, 페이징, 다중 이미지 첨부  
+    - ★ 운동 정보 게시판 – 운동 정보 CRUD, 검색, 페이징
+
+
+<br/>
+<br/>
+<br/>
 
 - **담당 업무 및 성과**
 - 운동챌린지게시판 구현  
@@ -279,6 +387,32 @@
 |항목|링크|
 |-|-|
 |GitHub|[PAWJECT 1차](https://github.com/taehun00/thejoeun/tree/master/pawject1)|
+
+<br/>
+<br/>
+<br/>
+
+- **프로젝트 목표**
+    - JSP/Servlet 기반 MVC2 구조/ 게시판 프로토타입을 구현 → 서비스 아이디어를 실제 화면과 데이터 흐름으로 구체화  
+    - 핵심 게시판 기능(CRUD)을 중심 → 멤버·사료·건강·리뷰·운동 정보 관리 기능을 설계·구현  
+    - UI/데이터 구조 설계 경험 → 이후 버전(v2~v4) 확장에 필요한 기반을 마련
+
+
+<br/>
+<br/>
+<br/>
+
+- **주요기능**
+    - 멤버 관리 – 회원가입/로그인/탈퇴/정보수정  
+    - 사료 게시판 – 사료 데이터 등록/조회/수정/삭제  
+    - 건강 정보 게시판 – 반려동물 건강 정보 등록/조회/수정/삭제  
+    - 리뷰 게시판 – 사용자 리뷰 등록/조회/수정/삭제  
+    - ★ 운동 정보 게시판 – 반려동물 운동 정보 등록/조회/수정/삭제
+
+
+<br/>
+<br/>
+<br/>
 
 - **담당 업무 및 성과**
     -	반려동물 맞춤형 운동 정보 관리 시스템(CRUD) 구축
