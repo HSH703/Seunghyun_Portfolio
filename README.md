@@ -42,14 +42,9 @@
 <img src=""
      alt="4차프로젝트"  width="100" />
 
-<br/>
-<br/>
-<br/>
+---
 
 - **4차 프로젝트 관련 자료**
-
-<details>
-  <summary>▶ 상세내용 펼쳐보기</summary>
     |항목|링크|
     |-|-|
     |포트폴리오(배포 URL)|[추후 추가예정]()|
@@ -57,9 +52,11 @@
     |피그마|[PAWJECT 4차 - Figma](https://www.figma.com/deck/p5XSa4gGr7FLTs0VTKnDgF/PAWJECT_ver4?node-id=1-261&t=Ze7c2GsPzUcjjIdV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
     |YouTube|[촬영예정]()|
 
-    <br/>
-    <br/>
-    <br/>
+---
+
+
+<details>
+  <summary> 상세내용 펼쳐보기 (▶를 눌러주세요.)</summary>
 
     - **프로젝트 목표**
     - React 기반 프론트/백 분리 아키텍처로 전환 → 서비스 확장 및 유지보수성 확보
@@ -67,21 +64,14 @@
     - JWT 인증·Redis 캐싱 적용으로 보안성과 성능을 동시에 확보 → 안정적 서비스 운영 기반
     - 사용자 중심 UI/UX 개편 → 콘텐츠 탐색 효율성과 참여도를 높여 플랫폼 경쟁력 강화
 
-    <br/>
-    <br/>
-    <br/>
-
+ 
     - **주요기능**
         - React 전환 
-        
-        ㄴ 기존 게시판 UI를 React 기반으로 재구성, 공통 UI(헤더 / 네비게이션) & 메인페이지 리뉴얼  
-
+        ㄴ 기존 게시판 UI를 React 기반으로 재구성, 공통 UI(헤더 / 네비게이션) & 메인페이지 리뉴얼 
         -  인증/보안(JWT) 
-        
         ㄴ Spring Security 기반 인증 구조를 JWT 토큰 방식으로 전환 → API 중심 로그인/인가 체계 구축  
 
         -  신규/확장 기능 
-        
         ㄴ ★ 체험단 게시판, 질병정보 게시판, ★ SNS기반 운동챌린지 게시판 등 신규 기능 개발 및 기존 데이터 구조 개편   
 
     <br/>
@@ -103,27 +93,22 @@
     <br/>
     <br/>
 
-    - **트러블슈팅**
-    ```
-    - <사례1>  
-        - 문제: 본인 작성 게시글과 리트윗 게시글을 동시에 페이징 조회 시 응답 지연 발생  
-        - 원인: 서브쿼리·다중 조인 포함 복잡 로직을 JPA 기본 메서드로 처리 → 비효율적 쿼리 실행  
-        - 해결: Native Query 작성, Oracle ROWNUM + 인라인 뷰 활용한 고급 페이징 로직 적용  
-        - 추후 업그레이드 계획: Redis 캐싱 도입으로 반복 조회 시 DB 부하 최소화  
-        - 성과: 대량 데이터 조회 속도 개선, 안정적 사용자 피드 제공  
-        - 학습: SQL 튜닝과 Native Query 활용 역량 강화  
-    ```
-    ```
+트러블슈팅
+<사례1>  
+- 문제: 본인 작성 게시글과 리트윗 게시글을 동시에 페이징 조회 시 응답 지연 발생  
+- 원인: 서브쿼리·다중 조인 포함 복잡 로직을 JPA 기본 메서드로 처리 → 비효율적 쿼리 실행  
+- 해결: Native Query 작성, Oracle ROWNUM + 인라인 뷰 활용한 고급 페이징 로직 적용  
+- 추후 업그레이드 계획: Redis 캐싱 도입으로 반복 조회 시 DB 부하 최소화  
+- 성과: 대량 데이터 조회 속도 개선, 안정적 사용자 피드 제공  
+- 학습: SQL 튜닝과 Native Query 활용 역량 강화  
+ 
     <사례2>  
         - 원인: DTO는 LocalDate 사용, 매핑 시 타입 핸들러 설정 미흡  
         - 해결: DTO 구조를 엔티티와 동기화, Jackson 라이브러리로 JSON 직렬화 시 날짜 포맷 통일  
         - 추후 업그레이드 계획: Global Response Wrapper 도입, API 응답 규격 표준화  
         - 성과: 데이터 전달 오류 제거, 화면 출력 정확성 확보  
         - 학습: 이기종 프레임워크 혼용 시 직렬화·타입 동기화 중요성 체득
-    ```
-    <br/>
-    <br/>
-    <br/>
+ 
 
     - **프로젝트 소감**
         - React와 Spring Boot를 연계한 풀스택 개발 과정에서 프론트엔드 상태 관리와 백엔드 데이터 
@@ -149,12 +134,7 @@
      alt="3차프로젝트"  width="600" />
 
 
-
-
-<br/>
-<br/>
-<br/>
-
+---
 - **3차 프로젝트 관련 자료**
 
 |항목|링크|
@@ -163,10 +143,10 @@
 |피그마|[PAWJECT 3차 - Figma](https://www.figma.com/deck/agVQ2UET3VDuGyPsoOOyh6/PAWJECT_ver3?node-id=1-261&t=vW2UAcWi4Fd8xILs-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
 |YouTube|[3차프로젝트_운동스마트게시판](https://www.youtube.com/watch?v=zX3kRQAQF2o)|
 
-<br/>
-<br/>
-<br/>
+---
 
+<details>
+  <summary> 상세내용 펼쳐보기 (▶를 눌러주세요.)</summary>
 - **프로젝트 목표**
     - 기존 v2 서비스를 Spring Boot 기반으로 확장 → 본격적인 운영 가능한 서비스 구조로 발전  
     - 외부 API 연동(OCR, ChatGPT, 채널톡, 날씨/지도 API 등) → 사용자 편의성과 
@@ -216,9 +196,6 @@
   - Spring Boot + Ajax 연계로 서버-클라이언트 간 데이터 흐름 안정화  
  → 성과: 대량 데이터 환경에서도 안정적 조회·검색 기능 확보
 
-<br/>
-<br/>
-<br/>
 
 - **트러블슈팅**
 ```
@@ -248,7 +225,9 @@
     - 새로운 기술을 적용하면서 이전 작업의 개선점을 반영해 서비스 완성도를 높이는 경험 확보  
     - 하버사인 계산법·Ajax·Oracle DB 최적화 등 다양한 기술을  적용, 문제 해결 능력과 응용력 강화  
     - 이번 프로젝트를 통해 위치 기반 추천·실시간 데이터 처리·검색 최적화 등 확장성 있는 기능 구현 역량 
----
+</details>
+
+
 
  - #### 반려동물 건강&사료 종합 플랫폼 v2 (Spring+MyBatis 구조화)
 - **실행화면 - 운동챌린지게시판/운동정보게시판_v2**
@@ -274,9 +253,7 @@
 |피그마|[PAWJECT 2차 - Figma](https://www.figma.com/deck/j626h6S3cxnQN7z0ZsQCNT/PAWJECT_ver2?node-id=1-261)|
 |YouTube|[2차프로젝트_운동챌린지게시판](https://www.youtube.com/watch?v=eN79WDRs4wI)|
 
-<br/>
-<br/>
-<br/>
+
 
 - **프로젝트 목표**
     - 초기 버전(v1)을 Spring Framework 기반으로 확장 → 핵심 게시판 기능을 고도화  
