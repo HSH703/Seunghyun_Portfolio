@@ -444,7 +444,7 @@
 
 |항목|구글시트 주소|
 |-|-|
-|4차 프로젝트|[PAWJECT 4차-GoogleSheet](https://docs.google.com/spreadsheets/d/1tKH45UxPa-RrMnF8XNpTcCXr2Naq1IjctwE3coVSyS8/edit?pli=1&gid=0#gid=0)|
-|3차 프로젝트|[PAWJECT 3차-GoogleSheet](https://docs.google.com/spreadsheets/d/1qf483W3OjI8tLteDl4ohGsusr4az7OAgQ0jMewwhmjg/edit?gid=0#gid=0)|
+|4차 프로젝트|[PAWJECT 4차-Google Sheets](https://docs.google.com/spreadsheets/d/1tKH45UxPa-RrMnF8XNpTcCXr2Naq1IjctwE3coVSyS8/edit?pli=1&gid=0#gid=0)|
+|3차 프로젝트|[PAWJECT 3차-Google Sheets](https://docs.google.com/spreadsheets/d/1qf483W3OjI8tLteDl4ohGsusr4az7OAgQ0jMewwhmjg/edit?gid=0#gid=0)|
 
 ---
