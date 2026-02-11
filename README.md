@@ -255,20 +255,10 @@
 
 
 - **프로젝트 버전 비교 (v1 → v2)**
-- **실행화면 - 운동정보게시판 v2**
-- **After (v2)**  
-<p align="left">
-<img src="Image/팀프로젝트-2차_2.png" alt="2차프로젝트" width="500" />
-</p>
 
-
-
-
-- **실행화면 - 운동정보게시판 v1**
-- **Before (v1)**  
-<p align="left">
-<img src="Image/팀프로젝트-1차.png" alt="1차프로젝트" width="500" />
-</p>
+| Before (v1) |  | After (v2) |
+|-------------|----|------------|
+| <img src="Image/팀프로젝트-1차.png" alt="1차프로젝트" width="600"/> |➡️| <img src="Image/팀프로젝트-2차_2.png" alt="2차프로젝트" width="600"/> |
 
 ---
 
