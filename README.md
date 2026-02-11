@@ -54,9 +54,10 @@
 ---
 
 - **실행화면 - 운동챌린지게시판**
-<img src=""
+<p align="left">
+<img src="Image/팀프로젝트-2차_1.png"
      alt="4차프로젝트-운동챌린지게시판"  width="600" />
-
+</p>
 
 - **담당 업무 및 성과**
 - 운동챌린지 게시판 구현 (React + Spring Boot)  
