@@ -161,11 +161,11 @@
 |YouTube|[3차프로젝트_운동스마트게시판](https://www.youtube.com/watch?v=zX3kRQAQF2o)|
 
 
-
 <details>
   <summary> 3차 프로젝트 상세내용 펼쳐보기</summary>
 
 ---
+
 - **프로젝트 목표**
 - 기존 v2 서비스를 Spring Boot 기반으로 확장 → 본격적인 운영 가능한 서비스 구조로 발전  
 - 외부 API 연동(OCR, ChatGPT, 채널톡, 날씨/지도 API 등) → 사용자 편의성과 
@@ -260,6 +260,9 @@
 |-------------|----|------------|
 | <img src="Image/팀프로젝트-1차.png" alt="1차프로젝트" width="600"/> |➡️| <img src="Image/팀프로젝트-2차_2.png" alt="2차프로젝트" width="600"/> |
 
+<details>
+  <summary> 프로젝트 버전 상세비교</summary>
+
 ---
 
 - **v1 & v2 비교**
@@ -271,6 +274,8 @@
 | 데이터 처리 | Oracle DB 연동 DAO + JDBC | 게시판 입력·조회 기능 구현 |
 | 비즈니스 로직 | `Execinfo_Controller` 요청 분기 + `ExecinfoService` 인터페이스 기반 서비스 객체화 | 운동챌린지게시판 작성 시 참고 가능 구조 |
 | 성과 | 안정적 CRUD 구현 → 차후 확장(v2~v4) 기반 마련 | 사용자에게 참고 가능한 운동 정보 제공, 게시판 활용도 확대 |
+
+</details>
 
 ---
 
