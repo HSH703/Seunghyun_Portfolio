@@ -82,11 +82,11 @@
     |YouTube|[4차 프로젝트 - 광고배너](https://www.youtube.com/watch?v=L5Sabniz1DY)|
 
 
-
 <details>
   <summary> 4차 프로젝트 상세내용 펼쳐보기</summary>
 
 ---
+
 - **프로젝트 목표**
 - React 기반 프론트/백 분리 아키텍처로 전환 → 서비스 확장 및 유지보수성 확보
 - API 중심 구조 재편을 통해 기능 간 연동성을 강화 & 신규 기능 개발 속도를 향상
@@ -415,6 +415,10 @@
 ---
 
 - **프로젝트 설계 개요**
-(구글시트)
+
+|항목|구글시트 주소|
+|-|-|
+|4차 프로젝트|[PAWJECT 4차-GoogleSheet](https://docs.google.com/spreadsheets/d/1tKH45UxPa-RrMnF8XNpTcCXr2Naq1IjctwE3coVSyS8/edit?pli=1&gid=0#gid=0)|
+|3차 프로젝트|[PAWJECT 3차-GoogleSheet](https://docs.google.com/spreadsheets/d/1qf483W3OjI8tLteDl4ohGsusr4az7OAgQ0jMewwhmjg/edit?gid=0#gid=0)|
 
 ---
