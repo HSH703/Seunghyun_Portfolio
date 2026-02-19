@@ -74,7 +74,7 @@
 - **4차 프로젝트 관련 자료**
     |항목|링크|
     |-|-|
-    |포트폴리오(배포 URL)|[추후 추가예정]()|
+    |포트폴리오(배포 URL)|[http://54.180.94.156]()|
     |GitHub|[PAWJECT 4차 - TeamProject Github](https://github.com/taehun00/thejoeun/tree/master/pawject4)|
     |피그마|[PAWJECT 4차 - Figma](https://www.figma.com/deck/p5XSa4gGr7FLTs0VTKnDgF/PAWJECT_ver4?node-id=1-261&t=Ze7c2GsPzUcjjIdV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)|
     |YouTube(본인파트)|[4차 프로젝트 - 광고배너](https://www.youtube.com/watch?v=L5Sabniz1DY)|
