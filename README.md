@@ -51,10 +51,10 @@
 
 ---
 
-- **실행화면 - SNS기반 운동챌린지게시판(임시 이미지 → 추후 업데이트 예정)**
+- **실행화면 - SNS기반 운동챌린지게시판**
 <p align="left">
-<img src="Image/팀프로젝트-2차_1.png"
-     alt="4차프로젝트-SNS기반 운동챌린지게시판"  width="600" />
+<img src="Image/팀프로젝트-4차_2.png"
+     alt="4차프로젝트-SNS기반 운동챌린지게시판"  width="400" />
 </p>
 
 - **담당 업무 및 성과**
@@ -63,7 +63,7 @@
     - 성과: 사용자 체류 시간 및 챌린지 참여도 증가, 콘텐츠 탐색 효율 개선 
   - 댓글/대댓글 기능 개발 (JPA + MyBatis)  
   - 무한 댓글 구조 처리, 복잡한 계층형 쿼리 성능 최적화  
-    - 성과: 데이터 처리 효율성 확보, 사용자 소통 활성화  성과: 데이터 처리 효율성 확보, 사용자 소통 활성화 
+    - 성과: 데이터 처리 효율성 확보, 사용자 소통 활성화
 
 
 
@@ -411,7 +411,7 @@
 - <사례1>  
     - 문제: 컨트롤러에 비즈니스 로직이 집중되어 코드 비대화 및 가독성 저하 발생
     - 원인: 요청 처리와 DB 로직을 컨트롤러가 함께 담당하는 구조
-    - 해결: ExeExecinfoService 인터페이스를 정의하고 기능별(Insert, List, Detail, Update, Delete) 클래스로 로직 분리
+    - 해결: ExecinfoService 인터페이스를 정의하고 기능별(Insert, List, Detail, Update, Delete) 클래스로 로직 분리
     - 추후 업그레이드 계획: 추상 클래스 도입 또는 Spring @Service 기반 구조로 개선 예정
     - 성과: 컨트롤러는 경로 제어에 집중하게 되어 가독성 및 유지보수성 향상
     - 학습: 단일 책임 원칙(SRP)의 중요성을 실무를 통해 이해
@@ -446,3 +446,4 @@
 |3차 프로젝트|[PAWJECT 3차-Google Sheets](https://docs.google.com/spreadsheets/d/1qf483W3OjI8tLteDl4ohGsusr4az7OAgQ0jMewwhmjg/edit?gid=0#gid=0)|
 
 ---
+
