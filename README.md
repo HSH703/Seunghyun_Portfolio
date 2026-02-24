@@ -411,7 +411,7 @@
 - <사례1>  
     - 문제: 컨트롤러에 비즈니스 로직이 집중되어 코드 비대화 및 가독성 저하 발생
     - 원인: 요청 처리와 DB 로직을 컨트롤러가 함께 담당하는 구조
-    - 해결: ExeExecinfoService 인터페이스를 정의하고 기능별(Insert, List, Detail, Update, Delete) 클래스로 로직 분리
+    - 해결: ExecinfoService 인터페이스를 정의하고 기능별(Insert, List, Detail, Update, Delete) 클래스로 로직 분리
     - 추후 업그레이드 계획: 추상 클래스 도입 또는 Spring @Service 기반 구조로 개선 예정
     - 성과: 컨트롤러는 경로 제어에 집중하게 되어 가독성 및 유지보수성 향상
     - 학습: 단일 책임 원칙(SRP)의 중요성을 실무를 통해 이해
